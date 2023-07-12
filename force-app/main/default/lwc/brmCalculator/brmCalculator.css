@@ -1,0 +1,65 @@
+:host(){
+    --color-white: white;
+    --color-black: black;
+    --color-light-blue: rgb(73, 193, 232);
+    --color-light-violet: rgb(237, 195, 237);
+    --size-12: 12px;
+    --size-14: 14px;
+    --size-16: 16px;
+}
+
+.app{
+    background-image: url(/sfsites/c/resource/BRMBackground);
+    background-size: cover;
+    max-height: 100vh;
+}
+
+.container{
+    max-width: 420px;
+    height: 680px;
+    text-align: center;
+    margin: auto;
+    background-color: var(--color-light-blue);
+    color: var(--color-white);
+    padding: var(--size-16);
+    border-radius: 40px;
+}
+
+.wrapper{
+    background-color: var(--color-white);
+    padding: var(--size-16);
+    border-radius: 40px;
+    text-align: center;
+    font-size: var(--size-14);
+}
+
+h1{
+    color: var(--color-black);
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+h2{
+    font-size: 26px;
+    color: var(--color-light-violet);
+}
+
+p{
+    color: var(--color-light-blue);
+    font-size: var(--size-14);
+}
+
+.font-20{
+    font-size: 20px;
+}
+
+input{
+    color: var(--color-black);
+    padding: 8px;
+}
+
+legend{
+    font-size: 20px;
+    color: var(--color-black);
+}

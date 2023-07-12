@@ -1,0 +1,51 @@
+<!-- sldsValidatorIgnore -->
+
+<template>
+    <div class="app">
+        <div class="container">
+            <h1>BMR Calculator</h1>
+            <div class="wrapper slds-var-m-bottom_small">
+                <h2 class="slds-var-m-bottom_small">What's BRM?</h2>
+                <p class="slds-var-m-bottom_small">BRM stands for "Basal Metabolic Rate".</p>
+                <p>Once you have measured your BRM, you can determine the minimum number of calories needed to sustain vital bodily functions while at complete rest.</p>
+            </div>
+            <form>
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label slds-text-title_bold font-20" for="text-input-weight">Weight (Kg)</label>
+                    <div class="slds-form-element__control slds-var-m-bottom_small">
+                        <input type="number" id="text-input-weight" min="0" placeholder="Enter your weight in kg" required class="slds-input" />
+                    </div>
+                </div>
+                <div class="slds-form-element slds-var-m-bottom_small">
+                    <label class="slds-form-element__label slds-text-title_bold font-20" for="text-input-height">Height (cm)</label>
+                    <div class="slds-form-element__control">
+                        <input type="number" id="text-input-height" min="0" placeholder="Enter your height in cm" required class="slds-input" />
+                    </div>
+                </div>
+                <fieldset class="slds-form-element slds-form-element_compound">
+                    <legend class="slds-form-element__legend slds-form-element__label">Location</legend>
+                    <div class="slds-form-element__control">
+                        <div class="slds-form-element__row">
+                            <div class="slds-size_1-of-2">
+                                <div class="slds-form-element">
+                                    <label class="slds-form-element__label" for="input-male">Male</label>
+                                        <div class="slds-form-element__control">
+                                            <input type="radio" id="input-male" class="slds-input" />
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="slds-size_1-of-2">
+                                <div class="slds-form-element">
+                                    <label class="slds-form-element__label" for="input-female">Female</label>
+                                        <div class="slds-form-element__control">
+                                            <input type="radio" id="input-female" class="slds-input" />
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</template>
